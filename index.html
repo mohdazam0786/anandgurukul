@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anand Gurukul</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assets/images/logo.jpg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h2 class="logo"><a href="#">Anand GuruKul</a></h2>
+            <input type="checkbox" id="menu-toggler">
+            <label for="menu-toggler" id="hamburger-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+                    <path d="M0 0h24v24H0z" fill="none" />
+                    <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z" />
+                </svg>
+            </label>
+            <ul class="all-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="homepage" id="home">
+        <div class="content">
+            <div class="text">
+                <h1>Welcome To Anand Gurukul</h1>
+                <p>
+                    Empowering students with a safe, supportive hostel environment and holistic learning.</p>
+            </div>
+            <a href="#services">Our Services</a>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+        <p>A secure and comfortable hostel with 24x7 security, well-furnished rooms, daily housekeeping, high-speed
+            Wi-Fi, nutritious meals, library, indoor games, medical support, and laundry facilities.</p>
+        <ul class="cards">
+            <li class="card">
+                <img src="assets/cctv-camera.png" alt="img">
+                <h3>Security</h3>
+                <p>24x7 CCTV monitoring and security personnel.</p>
+            </li>
+            <li class="card">
+                <img src="assets/bedroom.png" alt="img">
+                <h3>Comfortable Rooms</h3>
+                <p>Single, Double & Triple rooms available with Cooler/AC.</p>
+            </li>
+            <li class="card">
+                <img src="assets/sweeper.png" alt="img">
+                <h3>Cleanliness</h3>
+                <p>Daily cleaning service.</p>
+            </li>
+            <li class="card">
+                <img src="assets/wifi-sign.png" alt="img">
+                <h3>Wi-Fi Facility</h3>
+                <p>High-speed internet access.</p>
+            </li>
+            <li class="card">
+                <img src="assets/diet.png" alt="img">
+                <h3>Canteen Facility</h3>
+                <p>Nutritious and delicious meals (Breakfast, Lunch, Evening Snacks, Dinner).</p>
+            </li>
+            <li class="card">
+                <img src="assets/water-dispenser.png" alt="img">
+                <h3>Water Cooler & Geyser Facility</h3>
+                <p>Water coolers and geysers available during winters.</p>
+            </li>
+            <li class="card">
+                <img src="assets/bookshelf.png" alt="img">
+                <h3>Library</h3>
+                <p>A good collection of books and magazines for study.</p>
+            </li>
+            <li class="card">
+                <img src="assets/first-aid-box.png" alt="img">
+                <h3>Medical Facility</h3>
+                <p>On-call doctor and first aid available.</p>
+            </li>
+            <li class="card">
+                <img src="assets/laundry-machine.png" alt="img">
+                <h3>Laundry Facility</h3>
+                <p>Regular clothes washing service.</p>
+            </li>
+        </ul>
+    </section>
+    <section class="gallery" id="gallery">
+        <h2>Our Gallery</h2>
+        <p style="margin-bottom: 20px;">Take a look at some of our unforgettable hostel experiences.</p>
+        <div class="slider">
+            <div class="slides">
+                <img src="assets/images/pic1.jpg" class="slide">
+                <img src="assets/images/pic2.jpg" class="slide">
+                <img src="assets/images/pic3.jpg" class="slide">
+                <img src="assets/images/pic4.jpg" class="slide">
+                <img src="assets/images/pic5.jpg" class="slide">
+                <img src="assets/images/pic6.jpg" class="slide">
+            </div>
+
+            <button class="prev" onclick="changeSlide(-1)">❮</button>
+            <button class="next" onclick="changeSlide(1)">❯</button>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>Discover our story in providing hostel services.</p>
+
+        <div class="about-container">
+            <div class="about-image">
+                <img src="assets/images/logo.jpg" alt="Anand Gurukul">
+            </div>
+
+            <div class="about-content">
+                <h3>Our Story</h3>
+                <p>Anand Gurukul is more than just a hostel; it is a vision for holistic education and personal growth.
+                    Founded with the belief that learning extends beyond textbooks, we provide an environment where
+                    students can thrive academically, emotionally, and socially. Our goal is to nurture young minds,
+                    helping them transform their aspirations into reality with the right guidance, discipline, and
+                    support.</p>
+
+                <h3>Our Mission</h3>
+                <p>Our mission is to create a safe, inspiring, and structured environment where students receive quality
+                    education, 24x7 mentorship, and life skills to achieve their full potential. We aim to instill
+                    discipline, values, and confidence in every student, ensuring they are prepared for both academic
+                    success and real-world challenges.</p>
+
+                <h3>Our Vision</h3>
+                <p>We envision Anand Gurukul as a center of excellence where students are not just educated but
+                    empowered to become self-reliant, responsible, and successful individuals. Through a unique blend of
+                    education, mentorship, and moral values, we strive to shape the leaders and innovators of tomorrow.
+                </p>
+
+                <h3>Our Team</h3>
+                <ul>
+                    <li>Ajay Anand - Founder and CEO</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p style="margin-bottom: 10px;">Reach out to us for any inquiries or feedback.</p>
+    
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Kakadev, Kanpur, 208025</p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:aanand3526@gmail.com">aanand3526@gmail.com</a></p>
+                <p><i class="fas fa-phone"></i> <a href="tel:+911234567890">(123) 456-7890</a></p>
+                <p><i class="fas fa-globe"></i> <a href="https://www.anandgurukul.com" target="_blank">www.anandgurukul.com</a></p>
+            </div>
+    
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                    <input type="text" placeholder="Your Name*" required>
+                    <input type="email" placeholder="Your Email*" required>
+                    <textarea placeholder="Your Message*" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <div>
+            <span>Copyright © 2023 All Rights Reserved</span>
+            <span class="link">
+                <a href="#">Home</a>
+                <a href="#contact">Contact</a>
+            </span>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
